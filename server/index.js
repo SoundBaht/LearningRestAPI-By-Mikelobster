@@ -99,7 +99,7 @@ app.delete('/users/:id' , (req , res) =>{
     // delete users[selectedIndex]
 
     //ลบ user ท่า splice
-    users.splice(selectedIndex , 1 )
+    users.splice(selectedIndex , 1)
 
     res.json({
         message: 'delete complete',
